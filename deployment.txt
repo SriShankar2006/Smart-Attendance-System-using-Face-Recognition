@@ -1,0 +1,92 @@
+Right now, **if you only run the project on your computer**, your friend **cannot access it using a link**. The Streamlit app runs only on your local machine.
+
+When you run:
+
+```bash
+streamlit run app.py
+```
+
+the link you see will look like:
+
+```text
+http://localhost:8501
+```
+
+or
+
+```text
+http://127.0.0.1:8501
+```
+
+`localhost` means **only your computer can open it**, so sending that link to your friend **will not work**.
+
+---
+
+# ✅ How to share it with your friend
+
+You must **deploy the project online**. The easiest way is using **Streamlit Community Cloud**.
+
+### Steps
+
+1️⃣ Upload your project to **GitHub**
+(you already did this).
+
+2️⃣ Go to
+[https://share.streamlit.io](https://share.streamlit.io)
+
+3️⃣ Sign in with GitHub.
+
+4️⃣ Click **New App**.
+
+5️⃣ Select:
+
+* your repository
+* branch: `main`
+* file: `app.py`
+
+6️⃣ Click **Deploy**.
+
+---
+
+# 🌐 After deployment
+
+You will get a link like:
+
+```text
+https://smart-attendance-system.streamlit.app
+```
+
+Now you can send that **link to your friend**, and they can run the project in their browser.
+
+---
+
+# ⚠️ Important for your project
+
+Your system uses:
+
+* webcam
+* face recognition
+* OpenCV
+
+Some cloud platforms **cannot access the user's camera directly**, so:
+
+* analytics modules will work
+* webcam module may not work online
+
+But it will still be **great for demo and portfolio**.
+
+---
+
+# ⭐ Best thing you can do
+
+For your project:
+
+* GitHub repository
+* Live Streamlit demo
+* LinkedIn post
+
+That combination looks **very strong for internships**.
+
+---
+
+✅ If you want, send me your **GitHub repo link**, and I can show you **exactly how to deploy it and make it live in 10 minutes**.

@@ -1,0 +1,11 @@
+streamlit
+opencv-python-headless
+face-recognition
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imutils
+cmake
+dlib
