@@ -174,7 +174,6 @@ elif menu == "Attendance History":
 
         st.dataframe(df)
 
-        # Automatically detect name column
         possible_columns = ["Name", "Student", "StudentName"]
 
         name_column = None
