@@ -76,7 +76,7 @@ Menu options:
 
 The menu automatically checks required files before running modules.
 
-⚙️ Requirements
+⚙️ Requirements :
 Python Version
 Python 3.8+
 Download cmake: https://cmake.org/download/
